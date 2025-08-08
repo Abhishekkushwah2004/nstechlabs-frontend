@@ -507,5 +507,24 @@ label {
 @media screen and (max-width: 599px) {
   .work_flow .work_flow_container {
     flex-wrap: wrap;
+
+  }
+
+  .about_section .row:after {
+    content: none;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+  .banner .img .text h5 {
+    width: 85%;
+}
+.banner .img .text h6 {
+    width: 90%;
+    padding-bottom: 6px;
+}
+h6 {
+    font-size: 20px;
 }
 }
