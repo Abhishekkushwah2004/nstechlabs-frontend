@@ -500,3 +500,12 @@ label {
   border-radius: 14px;
   box-shadow: 0 4px 5px #3030303a;
 }
+
+
+
+
+@media screen and (max-width: 414px) {
+  .work_flow .work_flow_container {
+    flex-wrap: wrap;
+}
+}
