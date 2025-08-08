@@ -552,4 +552,7 @@ h4{
 .banner .img img{
   height: 100%;
 }
+.service-section-container .box_container{
+  padding:0 50px;
+}
 }

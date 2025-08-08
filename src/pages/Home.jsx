@@ -26,17 +26,17 @@ function Home() {
                                         <h6 style={{ color: '#0F0F57', marginTop: '8px' }} className='h6_30'>All-Round Digital Product Development</h6>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/Services_icon_dsswm8.png"} title="Web Development" subtitle="Providing the solutions for tech business" />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453754/webdesign_icon_rj8itj.png"} title="Web Design Psd to Html" subtitle="Providing the solutions for tech business" />
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/uiux_icon_oipwjz.png"} title="UI/UX Designing" subtitle="Providing the solutions for tech business" />
                                 </div>
                             </div>
@@ -45,20 +45,20 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/frontend_icon_a2gflm.png"} title="Frontend" subtitle="Providing the solutions for tech business" />
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/backend_icon_nbej0f.png"} title="Backend" subtitle="Providing the solutions for tech business" />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/database_icon_zbvwka.png"} title="DataBase" subtitle="Providing the solutions for tech business" />
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 box_container">
                                     <div className="box">
                                         <div className="subtitle">
                                             <p style={{ color: '#303030' }}>Get Your Technology Solutions</p>
