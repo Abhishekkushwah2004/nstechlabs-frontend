@@ -504,7 +504,7 @@ label {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 599px) {
   .work_flow .work_flow_container {
     flex-wrap: wrap;
 }
