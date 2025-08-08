@@ -515,7 +515,7 @@ label {
   }
 
   h5 {
-    font-size: 12px;
+    font-size: 18px;
   }
   .banner .img .text h5 {
     width: 85%;
@@ -525,7 +525,7 @@ label {
     padding-bottom: 6px;
 }
 h6 {
-    font-size: 20px;
+    font-size: 26px;
 }
 .nav-top{
   display: none;
@@ -540,7 +540,7 @@ h4{
   font-size: 18px;
 }
 .h6_30{
-  font-size: 20px;
+  font-size: 22px;
 }
 .banner{
   height: 50vh;
