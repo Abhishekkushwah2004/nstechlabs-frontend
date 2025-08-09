@@ -590,12 +590,23 @@ label {
   .why_choose_section {
     padding: 25px 0;
   }
-  .why_choose_section{
+
+  .why_choose_section {
     text-align: center;
   }
+
   .heading .subtitle {
     width: 55%;
     text-align: center;
     margin: auto;
-}
+  }
+
+  .why_choose_section .box {
+    flex-direction: column;
+  }
+
+  .why_choose_section .box .text .subtitle p {
+    max-width: 80%;
+    margin: auto;
+  }
 }
