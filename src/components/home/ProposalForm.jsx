@@ -167,7 +167,7 @@ const ProposalForm = () => {
                     </div>
 
                     <div className="col-12 text-center">
-                        <button className="poppins-regular mt-3" type="submit">
+                        <button className="poppins-regular mt-3">
                             Send your Inquiry →
                         </button>
                     </div>
