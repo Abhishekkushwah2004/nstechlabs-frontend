@@ -42,7 +42,7 @@ const ProposalForm = () => {
                 { position: 'top-right', autoClose: 4000, className: 'custom-toast', closeButton: true }
             );
             setSentMail(true);
-            setFormData({ fullName: "", email: "",subject: '', mobile: "", message: "",budget:"",proposalOption:""});
+            setFormData({ fullName: "", email: "", subject: '', mobile: "", message: "", budget: "", proposalOption: "" });
 
         } catch (error) {
             console.log(error)
