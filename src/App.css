@@ -181,9 +181,14 @@
 .why_choose_section .right_side_img {
   align-self: center;
 }
+
 .why_choose_section .box .text .subtitle p {
-    max-width: 55%;
-  }
+  max-width: 55%;
+}
+
+.why_choose_section .row .paragraph {
+  width: 80%;
+}
 
 @keyframes floatUpDown {
   0% {
@@ -612,7 +617,12 @@ label {
     max-width: 80%;
     margin: auto;
   }
-  .why_choose_section .row{
+
+  .why_choose_section .row {
     gap: 20px;
+  }
+
+  .why_choose_section .row .paragraph {
+    width: 100%;
   }
 }

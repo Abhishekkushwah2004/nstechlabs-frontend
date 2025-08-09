@@ -89,7 +89,7 @@ function Home() {
                                 <h6 style={{ color: '#ffff', marginTop: '8px' }} className='h6_30'>Why NS TechLabs is the Right Choice</h6>
                             </div>
                         </div>
-                        <div style={{ width: "80%" }} className="text">
+                        <div style={{ width: "80%" }} className="text paragraph">
                             <p style={{ color: '#ffff', marginTop: '20px' }}>At NS Tech Labs, we blend innovation, precision and expertise to deliver powerful digital solutions tailored to your business goals. Whether you're a startup or an enterprise, our team ensures top-tier performance with scalable development, intuitive UI/UX and creative design. With a client-first mindset, transparent communication and on-time delivery, we’re not just a service provider — we’re your long-term tech partner.</p>
                         </div>
                         <hr style={{ borderTop: "1px Solid #0F0F57" }} />
