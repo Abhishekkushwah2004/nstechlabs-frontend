@@ -116,7 +116,7 @@ function Home() {
                                     <h3 style={{ color: '#0F0F57' }}>Fast. Reliable. Always On Schedule.</h3>
                                 </div>
                                 <div className="subtitle">
-                                    <p style={{ color: '#ffff', maxWidth: "55%" }}>We’ve designed a culture that allows our stewards to assimilate</p>
+                                    <p style={{ color: '#ffff'}}>We’ve designed a culture that allows our stewards to assimilate</p>
                                 </div>
                             </div>
                         </div>

@@ -513,6 +513,9 @@ label {
 
 
 @media screen and (max-width: 599px) {
+  p{
+    font-size: 14px;
+  }
   .work_flow .work_flow_container {
     flex-wrap: wrap;
 
