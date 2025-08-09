@@ -590,6 +590,9 @@ label {
   .why_choose_section {
     padding: 25px 0;
   }
+  .why_choose_section{
+    text-align: center;
+  }
   .heading .subtitle {
     width: 55%;
     text-align: center;
