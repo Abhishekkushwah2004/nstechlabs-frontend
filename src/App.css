@@ -181,6 +181,9 @@
 .why_choose_section .right_side_img {
   align-self: center;
 }
+.why_choose_section .box .text .subtitle p {
+    max-width: 55%;
+  }
 
 @keyframes floatUpDown {
   0% {
