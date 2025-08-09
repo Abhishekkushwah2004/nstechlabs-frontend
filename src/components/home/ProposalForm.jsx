@@ -42,7 +42,7 @@ const ProposalForm = () => {
                 { position: 'top-right', autoClose: 4000, className: 'custom-toast', closeButton: true }
             );
             setSentMail(true);
-            setFormData({ name: "", email: "", phone: "", message: "" });
+            setFormData({ fullName: "", email: "", phone: "", message: "" });
 
         } catch (error) {
             console.log(error)
@@ -130,7 +130,7 @@ const ProposalForm = () => {
                         <div className="row checks">
                             {[
                                 "Web Development", "Web Design", "Ui/Ux Design",
-                                "Frontend", "Backend", "DataBase Manage","Hire Dedicated Developer","Partnership Opportunities"
+                                "Frontend", "Backend", "DataBase Manage", "Hire Dedicated Developer", "Partnership Opportunities"
                             ].map((option, index) => (
                                 <div className="col-md-6" key={index}>
                                     <div className="form-check">
@@ -167,8 +167,11 @@ const ProposalForm = () => {
                     </div>
 
                     <div className="col-12 text-center">
-                        <button className="poppins-regular mt-3">
-                            Send your Inquiry →
+                        <button
+                            className="poppins-regular mt-3"
+                            disabled={isSubmitting}
+                        >
+                            {isSubmitting ? "Sending..." : "Send your Inquiry →"}
                         </button>
                     </div>
                 </form>
