@@ -612,4 +612,7 @@ label {
     max-width: 80%;
     margin: auto;
   }
+  .why_choose_section .row{
+    gap: 20px;
+  }
 }
