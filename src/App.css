@@ -189,6 +189,9 @@
 .why_choose_section .row .paragraph {
   width: 80%;
 }
+.about_section .box .text .subtitle p {
+    max-width: 95%;
+  }
 
 @keyframes floatUpDown {
   0% {
@@ -513,9 +516,10 @@ label {
 
 
 @media screen and (max-width: 599px) {
-  p{
+  p {
     font-size: 14px;
   }
+
   .work_flow .work_flow_container {
     flex-wrap: wrap;
 
@@ -627,5 +631,13 @@ label {
 
   .why_choose_section .row .paragraph {
     width: 100%;
+  }
+
+  .about_section {
+    text-align: center;
+    padding: 24px 0;
+  }
+  .about_section .box .text .subtitle p {
+    max-width: 100%;
   }
 }

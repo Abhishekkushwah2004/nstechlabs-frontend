@@ -141,7 +141,7 @@ function Home() {
                                 <h6 style={{ color: '#0F0F57', marginTop: '8px' }} className='h6_30'>Welcome to NS TechLabs — your trusted partner for innovative web and mobile app development.</h6>
                             </div>
                         </div>
-                        <div style={{ width: "95%" }} className="text">
+                        <div className="text">
                             <p style={{ color: "#303030", margin: "10px 0" }}>At NS TechLabs, we don’t just build products — we build digital experiences that empower businesses and entrepreneurs to grow, scale and succeed in the modern world. Whether you're a startup founder with a bold idea or an established enterprise seeking transformation, our team is here to deliver smart, scalable and reliable solutions tailored to your needs.</p>
                             <p>From sleek websites to powerful mobile apps, our services are rooted in deep technical expertise, a strong design-first approach and a passion for solving real-world problems through technology. But we go beyond just development — NS TechLabs is also a thriving community for entrepreneurs, creators and innovators looking to make an impact.</p>
                             <div className="points">
