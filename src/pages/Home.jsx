@@ -27,17 +27,17 @@ function Home() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/Services_icon_dsswm8.png"} title="Web Development" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/Services_icon_dsswm8.png"} title="Web Development" subtitle="Fast, secure and scalable websites." />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453754/webdesign_icon_rj8itj.png"} title="Web Design Psd to Html" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453754/webdesign_icon_rj8itj.png"} title="Web Design Psd to Html" subtitle="From designs to responsive code." />
                                 </div>
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/uiux_icon_oipwjz.png"} title="UI/UX Designing" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/uiux_icon_oipwjz.png"} title="UI/UX Designing" subtitle="User-friendly, engaging experiences." />
                                 </div>
                             </div>
                         </div>
@@ -46,28 +46,28 @@ function Home() {
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/frontend_icon_a2gflm.png"} title="Frontend" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/frontend_icon_a2gflm.png"} title="Frontend" subtitle="Interactive and responsive layouts." />
                                 </div>
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/backend_icon_nbej0f.png"} title="Backend" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/backend_icon_nbej0f.png"} title="Backend" subtitle="Secure, efficient server solutions." />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-6 box_container">
-                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/database_icon_zbvwka.png"} title="DataBase" subtitle="Providing the solutions for tech business" />
+                                    <ServicesBox img={"https://res.cloudinary.com/djiuh3gic/image/upload/v1754453753/database_icon_zbvwka.png"} title="DataBase" subtitle="Reliable data storage and access." />
                                 </div>
                                 <div className="col-lg-6 box_container">
                                     <div className="box">
                                         <div className="subtitle">
-                                            <p style={{ color: '#303030' }}>Get Your Technology Solutions</p>
+                                            <p style={{ color: '#303030' }}>Your trusted IT partner.</p>
                                         </div>
                                         <div className="title">
-                                            <h3 style={{ color: '#0F0F57' }}>Don't Waste a Second! Call Us to Solve Your Any IT Solutions</h3>
+                                            <h3 style={{ color: '#0F0F57' }}>Don’t Wait for Solutions – Let’s Build Them</h3>
                                         </div>
                                         <div className="button">
-                                            <button onClick={() => navigate('/contactUs')} className='poppins-regular'>Find Your Solution</button>
+                                            <button onClick={() => navigate('/contactUs')} className='poppins-regular'>Send Request</button>
                                         </div>
                                     </div>
                                 </div>
