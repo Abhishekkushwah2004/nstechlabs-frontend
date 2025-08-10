@@ -189,9 +189,10 @@
 .why_choose_section .row .paragraph {
   width: 80%;
 }
+
 .about_section .box .text .subtitle p {
-    max-width: 95%;
-  }
+  max-width: 95%;
+}
 
 @keyframes floatUpDown {
   0% {
@@ -520,11 +521,6 @@ label {
     font-size: 14px;
   }
 
-  .work_flow .work_flow_container {
-    flex-wrap: wrap;
-
-  }
-
   .about_section .row:after {
     content: none;
   }
@@ -637,7 +633,32 @@ label {
     text-align: center;
     padding: 24px 0;
   }
+
   .about_section .box .text .subtitle p {
     max-width: 100%;
   }
+
+  .about_section .points ul {
+    align-items: center;
+  }
+
+  .work_flow .work_flow_container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* keep items in one row */
+    overflow-x: auto;
+    /* allow horizontal scroll */
+    overflow-y: hidden;
+    /* prevent vertical scroll */
+    -webkit-overflow-scrolling: touch;
+    /* smooth scroll for iOS */
+    gap: 10px;
+    /* space between cards */
+    padding-bottom: 10px;
+  }
+  .work_flow .work_flow_container > div {
+    flex: 0 0 auto;           /* prevent shrinking */
+    min-width: 150px;         /* adjust per card size */
+  }
+
 }
