@@ -277,7 +277,9 @@
   padding: 48px 0;
   background-color: #ffffff;
 }
-
+.contact_Us .text {
+    width: 95%;
+  }
 .contact-form-wrapper {
   padding: 2rem;
   display: flex;
@@ -659,6 +661,22 @@ label {
   .work_flow .work_flow_container > div {
     flex: 0 0 auto;           /* prevent shrinking */
     min-width: 150px;         /* adjust per card size */
+  }
+
+  .contact_Us{
+    padding: 24px 0;
+  }
+
+  .contact_Us .heading{
+    text-align: center;
+  }
+
+  .contact_Us .text {
+    width: 100%;
+    text-align: center;
+  }
+  .contact_details{
+    text-align: center;
   }
 
 }
