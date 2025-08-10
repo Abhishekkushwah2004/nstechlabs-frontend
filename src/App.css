@@ -710,4 +710,10 @@ label {
   width: 100%;
   text-align: center;
 }
+.proposal-form-wrapper{
+      box-shadow: 0 0 4px #0003;
+}
+.contactUs-section .proposalForm_section{
+  padding:18px 28px;
+}
 }

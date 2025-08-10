@@ -68,7 +68,7 @@ export default function ContactUs() {
                                 <p style={{ color: '#303030', fontSize: "14px" }}>Just share your details on the form to the right —<br /> we’ll be in touch within 24 hours to learn more about your project.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 proposalForm_section">
                             <ProposalForm />
                         </div>
                     </div>
