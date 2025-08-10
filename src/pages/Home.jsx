@@ -102,7 +102,7 @@ function Home() {
                                     <h3 style={{ color: '#0F0F57' }}>Great Services, Honest Pricing</h3>
                                 </div>
                                 <div className="subtitle">
-                                    <p style={{ color: '#ffff'}}>We’ve designed a culture that allows our stewards to assimilate</p>
+                                    <p style={{ color: '#ffff'}}>Our team is committed to quality work while keeping costs clear and honest.</p>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ function Home() {
                                     <h3 style={{ color: '#0F0F57' }}>Fast. Reliable. Always On Schedule.</h3>
                                 </div>
                                 <div className="subtitle">
-                                    <p style={{ color: '#ffff'}}>We’ve designed a culture that allows our stewards to assimilate</p>
+                                    <p style={{ color: '#ffff'}}>We ensure every project is delivered promptly without compromising quality.</p>
                                 </div>
                             </div>
                         </div>
