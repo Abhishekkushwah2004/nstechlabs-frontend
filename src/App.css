@@ -277,9 +277,11 @@
   padding: 48px 0;
   background-color: #ffffff;
 }
+
 .contact_Us .text {
-    width: 95%;
-  }
+  width: 95%;
+}
+
 .contact-form-wrapper {
   padding: 2rem;
   display: flex;
@@ -609,7 +611,7 @@ label {
   }
 
   .heading .subtitle {
-    width: 55%;
+    width: 60%;
     text-align: center;
     margin: auto;
   }
@@ -658,16 +660,19 @@ label {
     /* space between cards */
     padding-bottom: 10px;
   }
-  .work_flow .work_flow_container > div {
-    flex: 0 0 auto;           /* prevent shrinking */
-    min-width: 150px;         /* adjust per card size */
+
+  .work_flow .work_flow_container>div {
+    flex: 0 0 auto;
+    /* prevent shrinking */
+    min-width: 150px;
+    /* adjust per card size */
   }
 
-  .contact_Us{
+  .contact_Us {
     padding: 24px 0;
   }
 
-  .contact_Us .heading{
+  .contact_Us .heading {
     text-align: center;
   }
 
@@ -675,8 +680,20 @@ label {
     width: 100%;
     text-align: center;
   }
-  .contact_details{
+
+  .contact_details {
     text-align: center;
   }
 
+  .copy_right {
+    text-align: center;
+  }
+
+  .contact-form-wrapper {
+    padding: 1rem;
+  }
+
+  .work_flow {
+    padding: 48px 14px;
+  }
 }
