@@ -19,7 +19,7 @@ export default function ContactUs() {
                                     <h6 style={{ color: '#0F0F57', marginTop: '8px' }} className='h6_30'>Designing Success Starts With a Proposal</h6>
                                 </div>
                             </div>
-                            <div style={{ width: "95%" }} className="text">
+                            <div className="text">
                                 <p style={{ color: "#303030", margin: "10px 0" }}>Whether you're designing something from the ground up, improving performance, or experimenting with new technologies — NS TechLabs is here to help. Our development and strategy teams work hand-in-hand to deliver solutions that align with your vision.</p>
                                 <p>Fill in the form or drop us a line — and let’s get started.<br />
                                     We’ll guide you through every phase — from idea to execution.</p>

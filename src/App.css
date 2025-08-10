@@ -424,6 +424,10 @@
   padding: 50px 0;
 }
 
+.contactUs-section .text{
+  width: 95%;
+}
+
 .proposal-form-wrapper {
   padding: 2rem;
   display: flex;
@@ -696,4 +700,14 @@ label {
   .work_flow {
     padding: 48px 14px;
   }
+  .contactUs-section .heading{
+    text-align: center;
+  }
+  .contactUs-section {
+    padding: 25px 0;
+}
+.contactUs-section .text{
+  width: 100%;
+  text-align: center;
+}
 }
