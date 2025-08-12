@@ -36,7 +36,7 @@ const ProposalForm = () => {
             await axios.post(`${API_URL}/contact/proposal`, formData);
             toast(
                 <div>
-                    <strong>Hello {formData.name}.<br /> 🎉 Welcome to NS TechLabs!</strong>
+                    <strong>Hello {formData.fullName}.<br /> 🎉 Welcome to NS TechLabs!</strong>
                     <div>Thanks for reaching out. Our team will respond shortly.</div>
                 </div>,
                 { position: 'top-right', autoClose: 4000, className: 'custom-toast', closeButton: true }
